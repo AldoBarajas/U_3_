@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<mxfile host="app.diagrams.net" modified="2026-11-08T00:00:00.000Z" agent="ChatGPT" version="24.7.5" type="device">
+  <diagram id="model" name="Página 1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="s" value="&lt;b&gt;StaticStack&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;datos: T[]&lt;br/&gt;top: int = -1&lt;hr/&gt;Push(v): O(1)&lt;br/&gt;Pop(): O(1)&lt;br/&gt;Peek(): O(1)&lt;br/&gt;IsEmpty() / IsFull()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f9;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="350" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="l" value="&lt;b&gt;LinearQueue&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;datos: T[]&lt;br/&gt;front: int = 0&lt;br/&gt;rear: int = -1&lt;hr/&gt;Enqueue(v): O(1)&lt;br/&gt;Dequeue(): O(1)&lt;br/&gt;No reutiliza ranuras hasta vaciarse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f9;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="510" y="120" width="350" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="c" value="&lt;b&gt;CircularQueue&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;datos: T[]&lt;br/&gt;front / rear / count: int&lt;hr/&gt;Enqueue(v): O(1)&lt;br/&gt;Dequeue(): O(1)&lt;br/&gt;Índices calculados con módulo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f9;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="950" y="120" width="350" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="notes" value="&lt;b&gt;Arreglos de capacidad fija&lt;/b&gt;&lt;br/&gt;Sin Stack&amp;lt;T&amp;gt;, Queue&amp;lt;T&amp;gt; ni List&amp;lt;T&amp;gt; nativos.&lt;br/&gt;OverflowException en lleno e InvalidOperationException en vacío." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf4dd;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="250" y="510" width="900" height="140" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

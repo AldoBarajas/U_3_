@@ -1,0 +1,11 @@
+
+digraph G {
+ graph [bgcolor=white,rankdir=LR,pad=0.35,nodesep=0.6,ranksep=0.5, fontname="DejaVu Sans",labelloc=t,label="Tarea 3.2 | Nodos enlazados dinámicamente",fontsize=20];
+ node [shape=record,fontname="DejaVu Sans",color="#527a95",style=filled,fillcolor="#edf5f9",fontsize=15];
+ head [label="head",shape=box,fillcolor="#d6e7ee"];
+ a [label="{dato: Ana|next: →}",fillcolor="#d6f0e8"];
+ b [label="{dato: Beto|next: →}"];
+ c [label="{dato: Carla|next: null}"];
+ tail [label="tail",shape=box,fillcolor="#d6e7ee"];
+ head -> a -> b -> c; tail -> c [constraint=false];
+}

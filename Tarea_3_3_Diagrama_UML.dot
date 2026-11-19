@@ -1,0 +1,14 @@
+
+digraph UML {
+ graph [bgcolor="white",rankdir=LR,nodesep=0.45,ranksep=0.5,pad=0.35, fontname="DejaVu Sans",label="Tarea 3.3 | Diagrama de clases UML | Sistema de turnos",labelloc=t,fontsize=18];
+ node [shape=record,fontname="DejaVu Sans",fontsize=11, color="#507892", fillcolor="#f0f6fa",style=filled,margin="0.18,0.13"];
+ cola [label="{RestaurantPriorityQueue| - head: Node?\l + Count: int\l + IsEmpty: bool\l| + Enqueue(turno): void\l + Dequeue(): ClienteTurno\l + Peek(): ClienteTurno\l + GetEnumerator(): IEnumerator\l}",fillcolor="#e0f3ef"];
+ nodo [label="{Node (privado)| + Value: ClienteTurno\l + Next: Node?\l}"];
+ cliente [label="{ClienteTurno| + Folio: int\l + Nombre: string\l + Personas: int\l + Tipo: TipoTurno\l + Llegada: DateTime\l| + ToString(): string\l}"];
+ tipo [label="{«enumeración» TipoTurno| Reserva = 0\l SinReserva = 1\l}",fillcolor="#faf2de"];
+ app [label="{Program (consola)| - Turnos: RestaurantPriorityQueue\l - proximoFolio: int\l| + Registrar(): void\l + MostrarFila(): void\l + Demo(): void\l}"];
+ cola -> nodo [label="1 contiene 0..*",arrowhead=diamond,dir=back,color="#256c68",fontname="DejaVu Sans",fontsize=10];
+ nodo -> cliente [label="1",arrowhead=vee,style=dashed];
+ cliente -> tipo [label="1",style=dashed,arrowhead=vee];
+ app -> cola [label="utiliza",style=dashed,arrowhead=vee];
+}

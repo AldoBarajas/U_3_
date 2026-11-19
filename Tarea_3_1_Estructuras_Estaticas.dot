@@ -1,0 +1,15 @@
+
+digraph G {
+ graph [bgcolor="white", rankdir=LR, nodesep=0.5, ranksep=0.6, pad=0.25, fontname="DejaVu Sans", label="Tarea 3.1 | Representación de arreglos estáticos", labelloc=t, fontsize=21];
+ node [fontname="DejaVu Sans", shape=plaintext]; edge [fontname="DejaVu Sans",color="#507b95"];
+ subgraph cluster_s { label="PILA (LIFO)  | top = 2"; color="#94b5c9"; style="rounded"; fontsize=16;
+  a [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10" COLOR="#86a5bc"><TR><TD BGCOLOR="#edf5f8">Índice</TD><TD BGCOLOR="#edf5f8">0</TD><TD BGCOLOR="#edf5f8">1</TD><TD BGCOLOR="#edf5f8">2</TD><TD BGCOLOR="#edf5f8">3</TD></TR><TR><TD BGCOLOR="#edf5f8">dato</TD><TD>10</TD><TD>20</TD><TD BGCOLOR="#c1ebdd"><B>30</B></TD><TD>∅</TD></TR></TABLE>>];
+ }
+ subgraph cluster_q { label="COLA SIMPLE (FIFO)  | front = 1, rear = 3"; color="#94b5c9"; style="rounded"; fontsize=16;
+  b [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10" COLOR="#86a5bc"><TR><TD BGCOLOR="#edf5f8">Índice</TD><TD BGCOLOR="#edf5f8">0</TD><TD BGCOLOR="#edf5f8">1</TD><TD BGCOLOR="#edf5f8">2</TD><TD BGCOLOR="#edf5f8">3</TD></TR><TR><TD BGCOLOR="#edf5f8">dato</TD><TD>∅</TD><TD BGCOLOR="#c1ebdd">20</TD><TD>30</TD><TD BGCOLOR="#c1ebdd">40</TD></TR></TABLE>>];
+ }
+ subgraph cluster_c { label="COLA CIRCULAR (FIFO) | front = 1, rear = 0, count = 4"; color="#94b5c9"; style="rounded"; fontsize=16;
+  c [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="10" COLOR="#86a5bc"><TR><TD BGCOLOR="#edf5f8">Índice</TD><TD BGCOLOR="#edf5f8">0</TD><TD BGCOLOR="#edf5f8">1</TD><TD BGCOLOR="#edf5f8">2</TD><TD BGCOLOR="#edf5f8">3</TD></TR><TR><TD BGCOLOR="#edf5f8">dato</TD><TD BGCOLOR="#c1ebdd">50</TD><TD BGCOLOR="#c1ebdd">20</TD><TD>30</TD><TD>40</TD></TR></TABLE>>];
+ }
+ a -> b -> c [style=invis, weight=8];
+}

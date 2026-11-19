@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<mxfile host="app.diagrams.net" modified="2026-11-08T00:00:00.000Z" agent="ChatGPT" version="24.7.5" type="device">
+  <diagram id="model" name="Página 1">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="head" value="head&lt;br/&gt;&lt;b&gt;lista&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f2f4f7;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="145" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="n1" value="&lt;b&gt;Nodo&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;Valor: Ana&lt;br/&gt;Next: nodo2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5f3e6;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="&lt;b&gt;Nodo&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;Valor: Beto&lt;br/&gt;Next: nodo3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f9;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="600" y="140" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="&lt;b&gt;Nodo&amp;lt;T&amp;gt;&lt;/b&gt;&lt;hr/&gt;Valor: Carla&lt;br/&gt;Next: null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eaf2f9;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="220" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="tail" value="tail&lt;br/&gt;&lt;b&gt;lista&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f2f4f7;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="140" width="145" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4b7694;fontSize=12;" edge="1" parent="1" source="head" target="n1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4b7694;fontSize=12;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4b7694;fontSize=12;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#4b7694;fontSize=12;" edge="1" parent="1" source="tail" target="n3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="info" value="&lt;b&gt;Lista simplemente enlazada&lt;/b&gt;&lt;br/&gt;Los nodos se reservan cuando se necesitan.&lt;br/&gt;AddFirst = O(1) | AddLast con tail = O(1)&lt;br/&gt;Búsqueda y eliminación por valor = O(n)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fdf4dd;strokeColor=#6a8fa6;fontColor=#152e42;fontSize=14;align=center;verticalAlign=middle;spacing=9;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="760" height="145" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

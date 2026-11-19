@@ -1,0 +1,44 @@
+UNIDAD 3 - VERIFICACIONES DE ESTRUCTURA (NO EQUIVALEN A UNA EJECUCIÓN DE C#)
+No se dispone de compilador ni SDK .NET en este entorno.
+Pruebas C# definidas: 39. Pruebas C# ejecutadas: 0.
+
+OK | Cinco proyectos C# presentes
+OK | XML de proyecto: Tarea31_Estaticas
+OK | XML de proyecto: Pruebas
+OK | XML de proyecto: EstructurasLineales.Core
+OK | XML de proyecto: Tarea32_Dinamicas
+OK | XML de proyecto: Tarea33_Restaurante
+OK | Archivo diagrams.net: Tarea_3_3_Diagrama_UML.drawio
+OK | Archivo diagrams.net: Tarea_3_2_Lista_Dinamica.drawio
+OK | Archivo diagrams.net: Tarea_3_1_Estructuras_Estaticas.drawio
+OK | Tres diagramas drawio
+OK | Tres PDF técnicos
+OK | 39 pruebas definidas
+OK | Componentes: StaticStack.cs
+OK | Componentes: LinearQueue.cs
+OK | Componentes: CircularQueue.cs
+OK | Componentes: SinglyLinkedList.cs
+OK | Componentes: RestaurantPriorityQueue.cs
+OK | Sin colecciones nativas: StaticStack.cs
+OK | Sin colecciones nativas: LinearQueue.cs
+OK | Sin colecciones nativas: CircularQueue.cs
+OK | PDF legible: Tarea_3_3_Reporte_Caso_Restaurante.pdf
+OK | Texto PDF sin desborde geométrico: Tarea_3_3_Reporte_Caso_Restaurante p1
+OK | Texto PDF sin desborde geométrico: Tarea_3_3_Reporte_Caso_Restaurante p2
+OK | Texto PDF sin desborde geométrico: Tarea_3_3_Reporte_Caso_Restaurante p3
+OK | Texto PDF sin desborde geométrico: Tarea_3_3_Reporte_Caso_Restaurante p4
+OK | Texto PDF sin desborde geométrico: Tarea_3_3_Reporte_Caso_Restaurante p5
+OK | PDF legible: Tarea_3_1_Guia_Implementacion_Estatica.pdf
+OK | Texto PDF sin desborde geométrico: Tarea_3_1_Guia_Implementacion_Estatica p1
+OK | Texto PDF sin desborde geométrico: Tarea_3_1_Guia_Implementacion_Estatica p2
+OK | Texto PDF sin desborde geométrico: Tarea_3_1_Guia_Implementacion_Estatica p3
+OK | PDF legible: Tarea_3_2_Comparativo_Estatico_Dinamico.pdf
+OK | Texto PDF sin desborde geométrico: Tarea_3_2_Comparativo_Estatico_Dinamico p1
+OK | Texto PDF sin desborde geométrico: Tarea_3_2_Comparativo_Estatico_Dinamico p2
+OK | Texto PDF sin desborde geométrico: Tarea_3_2_Comparativo_Estatico_Dinamico p3
+OK | Texto PDF sin desborde geométrico: Tarea_3_2_Comparativo_Estatico_Dinamico p4
+OK | Tres guiones YouTube
+OK | Solución Visual Studio presente
+OK | README presente
+
+Resultado: 38/38 comprobaciones estructurales satisfactorias.
